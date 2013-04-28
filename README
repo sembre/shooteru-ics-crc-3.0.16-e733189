@@ -366,7 +366,7 @@ IF SOMETHING GOES WRONG:
    kernel with -g; edit arch/i386/Makefile appropriately, then do a "make
    clean". You'll also need to enable CONFIG_PROC_FS (via "make config").
 
-   After you've rebooted with the new kernel, do "gdb vmlinux /proc/kcore".
+   After you have rebooted with the new kernel, do "gdb vmlinux /proc/kcore".
    You can now use all the usual gdb commands. The command to look up the
    point where your system crashed is "l *0xXXXXXXXX". (Replace the XXXes
    with the EIP value.)
